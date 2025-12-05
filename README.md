@@ -1,7 +1,28 @@
-# Project template
-This is the project template from the Umeå Plant Science Centre Bioinformatics Facility. 
+# A high spatial resolution transcriptome analysis across tension wood developmental gradient in Populus tremula reveals key players in biosynthesis of contractile G-layer
 
-## How to
+## Authors
 
-To use it for your project, you can check this [GitHub gist](https://gist.gthub.com/nicolasDelhomme/46a1053d277510b95692318bd1732b6d)
+Manoj Kumar, Carolin Grones, Judith Felten, Matthieu Hainaut, Nicolas Delhomme, Bernard Henrissat, Bjorn Sundberg, Ewa J. Mellerowicz
 
+## Abstract
+
+
+
+## Repository description
+
+The pipeline directory contains the scripts ran to preprocess the data:
+
+1. FastQC
+2. SortMeRNA
+3. FastQC
+4. Trimmomatic
+5. FastQC
+6. STAR
+7. HTSeq
+
+The src/R script contains the scripts used to analyse the data
+
+1. checkAndCombineSamples.R
+2. TWgenerateHTMLReport.R
+3. BiologicalQA.R
+4. DESeq_accdata_2014.R
